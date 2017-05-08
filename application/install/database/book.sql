@@ -31,49 +31,6 @@ CREATE TABLE `handle_log` (
 ) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8 COMMENT='操作日志表';
 
 -- ----------------------------
--- Records of handle_log
--- ----------------------------
-INSERT INTO `handle_log` VALUES ('1', '1', 'role/add', '添加用户组[id:12]', '{\"data\":{\"name\":\"\\u5929\\u5929\\u5206\\u949f\",\"remark\":\"\\u5929\\u5929\\u5206\\u949f\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"1\",\"5\":\"\",\"11\":\"1\",\"12\":\"1\",\"13\":\"1\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\"}}}', '2017-04-08 13:47:41', '2017-04-08 13:47:41');
-INSERT INTO `handle_log` VALUES ('2', '1', 'role/destroy', '删除用户组[id:12]', '{\"id\":\"12\"}', '2017-04-08 13:47:57', '2017-04-08 13:47:57');
-INSERT INTO `handle_log` VALUES ('3', '1', 'role/destroy', '删除用户组[id:11]', '{\"id\":\"11\"}', '2017-04-08 13:48:04', '2017-04-08 13:48:04');
-INSERT INTO `handle_log` VALUES ('4', '1', 'role/destroy', '删除用户组[id:10]', '{\"id\":\"10\"}', '2017-04-08 13:48:10', '2017-04-08 13:48:10');
-INSERT INTO `handle_log` VALUES ('5', '1', 'role/destroy', '删除用户组[id:9]', '{\"id\":\"9\"}', '2017-04-08 13:48:45', '2017-04-08 13:48:45');
-INSERT INTO `handle_log` VALUES ('6', '1', 'role/destroy', '删除用户组[id:8]', '{\"id\":\"8\"}', '2017-04-08 13:49:45', '2017-04-08 13:49:45');
-INSERT INTO `handle_log` VALUES ('7', '1', 'role/destroy', '删除用户组[id:7]', '{\"id\":\"7\"}', '2017-04-08 13:49:50', '2017-04-08 13:49:50');
-INSERT INTO `handle_log` VALUES ('8', '1', 'role/destroy', '删除用户组[id:6]', '{\"id\":\"6\"}', '2017-04-08 13:49:56', '2017-04-08 13:49:56');
-INSERT INTO `handle_log` VALUES ('9', '1', 'role/destroy', '删除用户组[id:5]', '{\"id\":\"5\"}', '2017-04-08 13:50:04', '2017-04-08 13:50:04');
-INSERT INTO `handle_log` VALUES ('10', '1', 'user/edit', '修改用户[id:2]', '{\"data\":{\"name\":\"\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\",\"email\":\"canglaoshi@admin.com\",\"password\":\"\",\"confirm\":\"\",\"role\":\"2\",\"manager\":\"1\",\"status\":\"1\"},\"id\":\"2\"}', '2017-04-12 16:47:39', '2017-04-12 16:47:39');
-INSERT INTO `handle_log` VALUES ('11', '1', 'rule/add', '权限菜单添加[id:18]', '{\"data\":{\"parent_id\":\"8\",\"title\":\"\\u64cd\\u4f5c\\u65e5\\u5fd7\",\"name\":\"index\\/log\",\"icon\":\"\",\"sort\":\"255\",\"islink\":\"1\",\"isadmin\":\"\",\"isverify\":\"1\"}}', '2017-04-12 17:40:07', '2017-04-12 17:40:07');
-INSERT INTO `handle_log` VALUES ('12', '1', 'role/edit', '用户组修改[id:4]', '{\"data\":{\"name\":\"\\u5929\\u5929\\u5206\\u949f\",\"remark\":\"\\u5929\\u5929\\u5206\\u949f\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"1\",\"5\":\"\",\"11\":\"1\",\"12\":\"1\",\"13\":\"1\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\",\"18\":\"1\"}},\"id\":\"4\"}', '2017-04-12 17:40:19', '2017-04-12 17:40:19');
-INSERT INTO `handle_log` VALUES ('13', '1', 'role/edit', '用户组修改[id:3]', '{\"data\":{\"name\":\"\\u9ec4\\u91d1\\u65e0\\u654c\\u7ec4\",\"remark\":\"\\u8fd9\\u7fa4\\u4eba\\u6709\\u5f88\\u591a\\u9ec4\\u91d1\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"\",\"15\":\"\",\"16\":\"\",\"14\":\"\",\"17\":\"\",\"5\":\"\",\"11\":\"\",\"12\":\"\",\"13\":\"\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\",\"18\":\"1\"}},\"id\":\"3\"}', '2017-04-12 17:40:28', '2017-04-12 17:40:28');
-INSERT INTO `handle_log` VALUES ('14', '1', 'role/edit', '用户组修改[id:2]', '{\"data\":{\"name\":\"\\u7528\\u6237\\u7ba1\\u7406\",\"remark\":\"\\u7ba1\\u7406\\u540e\\u53f0\\u7528\\u6237\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"1\",\"5\":\"\",\"11\":\"\",\"12\":\"\",\"13\":\"\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\",\"18\":\"1\"}},\"id\":\"2\"}', '2017-04-12 17:40:37', '2017-04-12 17:40:37');
-INSERT INTO `handle_log` VALUES ('15', '1', 'rule/edit', '修改权限菜单[id:18]', '{\"data\":{\"parent_id\":\"8\",\"title\":\"\\u64cd\\u4f5c\\u65e5\\u5fd7\",\"name\":\"index\\/log\",\"icon\":\"\",\"sort\":\"2\",\"islink\":\"1\",\"isadmin\":\"\",\"isverify\":\"1\"},\"id\":\"18\"}', '2017-04-12 17:40:56', '2017-04-12 17:40:56');
-INSERT INTO `handle_log` VALUES ('16', '1', 'rule/edit', '修改权限菜单[id:10]', '{\"data\":{\"parent_id\":\"8\",\"title\":\"\\u9000\\u51fa\",\"name\":\"index\\/logout\",\"icon\":\"\",\"sort\":\"3\",\"islink\":\"1\",\"isadmin\":\"\",\"isverify\":\"\"},\"id\":\"10\"}', '2017-04-12 17:41:09', '2017-04-12 17:41:09');
-INSERT INTO `handle_log` VALUES ('17', '1', 'rule/edit', '修改权限菜单[id:18]', '{\"data\":{\"parent_id\":\"8\",\"title\":\"\\u64cd\\u4f5c\\u65e5\\u5fd7\",\"name\":\"index\\/log\",\"icon\":\"\",\"sort\":\"2\",\"islink\":\"1\",\"isadmin\":\"\",\"isverify\":\"\"},\"id\":\"18\"}', '2017-04-12 17:41:26', '2017-04-12 17:41:26');
-INSERT INTO `handle_log` VALUES ('18', '1', 'index/logout', '退出登录', '[]', '2017-04-12 17:57:28', '2017-04-12 17:57:28');
-INSERT INTO `handle_log` VALUES ('19', '1', 'index/login', '用户登录', '{\"data\":{\"email\":\"admin@admin.com\",\"password\":\"1234567\",\"captcha\":\"cjvd\"}}', '2017-04-12 17:57:50', '2017-04-12 17:57:50');
-INSERT INTO `handle_log` VALUES ('20', '1', 'index/login', '用户登录', '{\"data\":{\"email\":\"admin@admin.com\",\"password\":\"1234567\",\"captcha\":\"ezyv\"}}', '2017-04-14 14:02:42', '2017-04-14 14:02:42');
-INSERT INTO `handle_log` VALUES ('21', '1', 'user/edit', '修改用户[id:2]', '{\"data\":{\"name\":\"\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\",\"email\":\"canglaoshi@admin.com\",\"password\":\"\",\"confirm\":\"\",\"role\":\"2\",\"manager\":\"\",\"status\":\"1\"},\"id\":\"2\"}', '2017-04-14 14:14:06', '2017-04-14 14:14:06');
-INSERT INTO `handle_log` VALUES ('22', '1', 'user/edit', '修改用户[id:2]', '{\"data\":{\"name\":\"\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\",\"email\":\"canglaoshi@admin.com\",\"password\":\"000000\",\"confirm\":\"000000\",\"role\":\"2\",\"manager\":\"\",\"status\":\"1\"},\"id\":\"2\"}', '2017-04-14 14:14:25', '2017-04-14 14:14:25');
-INSERT INTO `handle_log` VALUES ('23', '1', 'user/edit', '修改用户[id:2]', '{\"data\":{\"name\":\"\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\\u4ed3\\u4e95\\u7a7a\",\"email\":\"canglaoshi@admin.com\",\"password\":\"\",\"confirm\":\"\",\"role\":\"2\",\"manager\":\"\",\"status\":\"1\"},\"id\":\"2\"}', '2017-04-14 14:14:34', '2017-04-14 14:14:34');
-INSERT INTO `handle_log` VALUES ('24', '1', 'user/add', '添加用户[id:4]', '{\"data\":{\"name\":\"\\u9ec4\\u80b2\\u4f73\",\"email\":\"sb112@admin.com\",\"password\":\"123123\",\"confirm\":\"123123\",\"role\":\"3\",\"manager\":\"1\",\"status\":\"1\"}}', '2017-04-14 15:07:47', '2017-04-14 15:07:47');
-INSERT INTO `handle_log` VALUES ('25', '1', 'user/edit', '修改用户[id:4]', '{\"data\":{\"name\":\"\\u9ec4\\u80b2\\u4f73\",\"email\":\"sb112@admin.com\",\"password\":\"\",\"confirm\":\"\",\"role\":\"3\",\"manager\":\"\",\"status\":\"1\"},\"id\":\"4\"}', '2017-04-14 15:08:11', '2017-04-14 15:08:11');
-INSERT INTO `handle_log` VALUES ('26', '1', 'user/allot', '用户分配权限[id:4]', '{\"data\":{\"rule\":{\"3\":\"1\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\",\"18\":\"1\"}},\"id\":\"4\"}', '2017-04-14 15:10:48', '2017-04-14 15:10:48');
-INSERT INTO `handle_log` VALUES ('27', '1', 'role/edit', '用户组修改[id:3]', '{\"data\":{\"name\":\"\\u9ec4\\u91d1\\u65e0\\u654c\\u7ec4\",\"remark\":\"\\u8fd9\\u7fa4\\u4eba\\u6709\\u5f88\\u591a\\u9ec4\\u91d1\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"\",\"16\":\"\",\"14\":\"\",\"17\":\"\",\"5\":\"1\",\"11\":\"\",\"12\":\"\",\"13\":\"\",\"2\":\"1\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"18\":\"1\",\"10\":\"1\"}},\"id\":\"3\"}', '2017-04-14 15:21:17', '2017-04-14 15:21:17');
-INSERT INTO `handle_log` VALUES ('28', '1', 'user/allot', '用户分配权限[id:3]', '{\"data\":{\"rule\":{\"3\":\"1\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\",\"18\":\"1\"}},\"id\":\"3\"}', '2017-04-14 15:21:50', '2017-04-14 15:21:50');
-INSERT INTO `handle_log` VALUES ('29', '1', 'user/allot', '用户分配权限[id:4]', '{\"data\":{\"rule\":{\"3\":\"1\",\"8\":\"1\",\"9\":\"1\",\"10\":\"1\",\"18\":\"1\"}},\"id\":\"4\"}', '2017-04-14 15:22:33', '2017-04-14 15:22:33');
-INSERT INTO `handle_log` VALUES ('30', '1', 'role/edit', '用户组修改[id:3]', '{\"data\":{\"name\":\"\\u9ec4\\u91d1\\u65e0\\u654c\\u7ec4\",\"remark\":\"\\u8fd9\\u7fa4\\u4eba\\u6709\\u5f88\\u591a\\u9ec4\\u91d1\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"\",\"16\":\"\",\"14\":\"\",\"17\":\"\",\"5\":\"1\",\"11\":\"\",\"12\":\"\",\"13\":\"\",\"2\":\"1\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"18\":\"1\",\"10\":\"1\"}},\"id\":\"3\"}', '2017-04-14 15:22:40', '2017-04-14 15:22:40');
-INSERT INTO `handle_log` VALUES ('31', '1', 'role/edit', '用户组修改[id:2]', '{\"data\":{\"name\":\"\\u7528\\u6237\\u7ba1\\u7406\",\"remark\":\"\\u7ba1\\u7406\\u540e\\u53f0\\u7528\\u6237\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"1\",\"5\":\"\",\"11\":\"\",\"12\":\"\",\"13\":\"\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"18\":\"1\",\"10\":\"1\"}},\"id\":\"2\"}', '2017-04-14 15:23:58', '2017-04-14 15:23:58');
-INSERT INTO `handle_log` VALUES ('32', '1', 'role/add', '添加用户组[id:13]', '{\"data\":{\"name\":\"\\u5987\\u5973\\u8054\\u76df\",\"remark\":\"\\u5987\\u5973\\u8054\\u76df\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"1\",\"5\":\"\",\"11\":\"1\",\"12\":\"1\",\"13\":\"1\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"18\":\"1\",\"10\":\"1\"}}}', '2017-04-14 15:36:27', '2017-04-14 15:36:27');
-INSERT INTO `handle_log` VALUES ('33', '1', 'role/edit', '用户组修改[id:13]', '{\"data\":{\"name\":\"\\u5987\\u5973\\u8054\\u76df\",\"remark\":\"\\u5987\\u5973\\u8054\\u76df\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"1\",\"5\":\"\",\"11\":\"1\",\"12\":\"1\",\"13\":\"1\",\"2\":\"\",\"6\":\"\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"18\":\"1\",\"10\":\"1\"}},\"id\":\"13\"}', '2017-04-14 15:41:48', '2017-04-14 15:41:48');
-INSERT INTO `handle_log` VALUES ('34', '1', 'role/edit', '用户组修改[id:2]', '{\"data\":{\"name\":\"\\u7528\\u6237\\u7ba1\\u7406\",\"remark\":\"\\u7ba1\\u7406\\u540e\\u53f0\\u7528\\u6237\",\"rule\":{\"3\":\"1\",\"1\":\"1\",\"4\":\"1\",\"15\":\"1\",\"16\":\"1\",\"14\":\"1\",\"17\":\"\",\"5\":\"1\",\"11\":\"1\",\"12\":\"\",\"13\":\"\",\"2\":\"1\",\"6\":\"1\",\"7\":\"\",\"8\":\"1\",\"9\":\"1\",\"18\":\"1\",\"10\":\"1\"}},\"id\":\"2\"}', '2017-04-14 15:51:01', '2017-04-14 15:51:01');
-INSERT INTO `handle_log` VALUES ('35', '1', 'index/logout', '退出登录', '[]', '2017-04-14 17:41:12', '2017-04-14 17:41:12');
-INSERT INTO `handle_log` VALUES ('36', '1', 'index/login', '用户登录', '{\"data\":{\"email\":\"admin@admin.com\",\"password\":\"1234567\",\"captcha\":\"ns67\"}}', '2017-04-14 17:46:33', '2017-04-14 17:46:33');
-INSERT INTO `handle_log` VALUES ('37', '1', 'index/logout', '退出登录', '[]', '2017-04-14 17:46:39', '2017-04-14 17:46:39');
-INSERT INTO `handle_log` VALUES ('38', '1', 'index/login', '用户登录', '{\"data\":{\"email\":\"admin@admin.com\",\"password\":\"1234567\",\"captcha\":\"ax7c\"}}', '2017-04-14 17:47:06', '2017-04-14 17:47:06');
-INSERT INTO `handle_log` VALUES ('39', '1', 'index/login', '用户登录', '{\"data\":{\"email\":\"admin@admin.com\",\"password\":\"1234567\",\"captcha\":\"ece5\"}}', '2017-04-14 17:48:07', '2017-04-14 17:48:07');
-
--- ----------------------------
 -- Table structure for role
 -- ----------------------------
 DROP TABLE IF EXISTS `role`;
@@ -89,10 +46,7 @@ CREATE TABLE `role` (
 -- ----------------------------
 -- Records of role
 -- ----------------------------
-INSERT INTO `role` VALUES ('2', '用户管理', '管理后台用户', '2017-04-05 14:04:38', '2017-04-14 15:51:01');
-INSERT INTO `role` VALUES ('3', '黄金无敌组', '这群人有很多黄金', '2017-04-05 16:39:50', '2017-04-14 15:22:40');
-INSERT INTO `role` VALUES ('4', '天天分钟', '天天分钟', '2017-04-08 12:28:23', '2017-04-12 17:40:18');
-INSERT INTO `role` VALUES ('13', '妇女联盟', '妇女联盟', '2017-04-14 15:36:27', '2017-04-14 15:41:48');
+INSERT INTO `role` VALUES ('1', '用户管理', '管理后台用户', '2017-04-05 14:04:38', '2017-04-14 15:51:01');
 
 -- ----------------------------
 -- Table structure for role_rule
@@ -107,57 +61,21 @@ CREATE TABLE `role_rule` (
 -- ----------------------------
 -- Records of role_rule
 -- ----------------------------
-INSERT INTO `role_rule` VALUES ('2', '1');
-INSERT INTO `role_rule` VALUES ('2', '2');
-INSERT INTO `role_rule` VALUES ('2', '3');
-INSERT INTO `role_rule` VALUES ('2', '4');
-INSERT INTO `role_rule` VALUES ('2', '5');
-INSERT INTO `role_rule` VALUES ('2', '6');
-INSERT INTO `role_rule` VALUES ('2', '8');
-INSERT INTO `role_rule` VALUES ('2', '9');
-INSERT INTO `role_rule` VALUES ('2', '10');
-INSERT INTO `role_rule` VALUES ('2', '11');
-INSERT INTO `role_rule` VALUES ('2', '14');
-INSERT INTO `role_rule` VALUES ('2', '15');
-INSERT INTO `role_rule` VALUES ('2', '16');
-INSERT INTO `role_rule` VALUES ('2', '18');
-INSERT INTO `role_rule` VALUES ('3', '1');
-INSERT INTO `role_rule` VALUES ('3', '2');
-INSERT INTO `role_rule` VALUES ('3', '3');
-INSERT INTO `role_rule` VALUES ('3', '4');
-INSERT INTO `role_rule` VALUES ('3', '5');
-INSERT INTO `role_rule` VALUES ('3', '8');
-INSERT INTO `role_rule` VALUES ('3', '9');
-INSERT INTO `role_rule` VALUES ('3', '10');
-INSERT INTO `role_rule` VALUES ('3', '18');
-INSERT INTO `role_rule` VALUES ('4', '1');
-INSERT INTO `role_rule` VALUES ('4', '3');
-INSERT INTO `role_rule` VALUES ('4', '4');
-INSERT INTO `role_rule` VALUES ('4', '8');
-INSERT INTO `role_rule` VALUES ('4', '9');
-INSERT INTO `role_rule` VALUES ('4', '10');
-INSERT INTO `role_rule` VALUES ('4', '11');
-INSERT INTO `role_rule` VALUES ('4', '12');
-INSERT INTO `role_rule` VALUES ('4', '13');
-INSERT INTO `role_rule` VALUES ('4', '14');
-INSERT INTO `role_rule` VALUES ('4', '15');
-INSERT INTO `role_rule` VALUES ('4', '16');
-INSERT INTO `role_rule` VALUES ('4', '17');
-INSERT INTO `role_rule` VALUES ('4', '18');
-INSERT INTO `role_rule` VALUES ('13', '1');
-INSERT INTO `role_rule` VALUES ('13', '3');
-INSERT INTO `role_rule` VALUES ('13', '4');
-INSERT INTO `role_rule` VALUES ('13', '8');
-INSERT INTO `role_rule` VALUES ('13', '9');
-INSERT INTO `role_rule` VALUES ('13', '10');
-INSERT INTO `role_rule` VALUES ('13', '11');
-INSERT INTO `role_rule` VALUES ('13', '12');
-INSERT INTO `role_rule` VALUES ('13', '13');
-INSERT INTO `role_rule` VALUES ('13', '14');
-INSERT INTO `role_rule` VALUES ('13', '15');
-INSERT INTO `role_rule` VALUES ('13', '16');
-INSERT INTO `role_rule` VALUES ('13', '17');
-INSERT INTO `role_rule` VALUES ('13', '18');
+INSERT INTO `role_rule` VALUES ('1', '1');
+INSERT INTO `role_rule` VALUES ('1', '2');
+INSERT INTO `role_rule` VALUES ('1', '3');
+INSERT INTO `role_rule` VALUES ('1', '4');
+INSERT INTO `role_rule` VALUES ('1', '5');
+INSERT INTO `role_rule` VALUES ('1', '6');
+INSERT INTO `role_rule` VALUES ('1', '8');
+INSERT INTO `role_rule` VALUES ('1', '9');
+INSERT INTO `role_rule` VALUES ('1', '10');
+INSERT INTO `role_rule` VALUES ('1', '11');
+INSERT INTO `role_rule` VALUES ('1', '14');
+INSERT INTO `role_rule` VALUES ('1', '15');
+INSERT INTO `role_rule` VALUES ('1', '16');
+INSERT INTO `role_rule` VALUES ('1', '18');
+
 
 -- ----------------------------
 -- Table structure for rule
@@ -226,10 +144,6 @@ CREATE TABLE `user` (
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('1', 'admin@admin.com', 'fcea920f7412b5da7be0cf42b8c93759', '0', '0', '超管', '18526232020', '1', '127.0.0.1', '2017-04-14 17:48:07', '2017-03-22 10:35:17', '2017-04-14 17:48:07');
-INSERT INTO `user` VALUES ('2', 'canglaoshi@admin.com', '670b14728ad9902aecba32e22fa4f6bd', '2', '0', '仓井空仓井空仓井空', null, '1', null, null, '2017-04-06 12:03:12', '2017-04-14 14:14:34');
-INSERT INTO `user` VALUES ('3', 'xixi@admin.com', 'e10adc3949ba59abbe56e057f20f883e', '2', '0', '纱纱相', null, '1', null, null, '2017-04-06 17:20:17', '2017-04-06 17:30:52');
-INSERT INTO `user` VALUES ('4', 'sb112@admin.com', '4297f44b13955235245b2497399d7a93', '3', '0', '黄育佳', null, '1', null, null, '2017-04-14 15:07:47', '2017-04-14 15:08:11');
-
 -- ----------------------------
 -- Table structure for user_rule
 -- ----------------------------
@@ -241,16 +155,3 @@ CREATE TABLE `user_rule` (
   PRIMARY KEY (`user_id`,`rule_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户权限菜单表';
 
--- ----------------------------
--- Records of user_rule
--- ----------------------------
-INSERT INTO `user_rule` VALUES ('3', '2', '3');
-INSERT INTO `user_rule` VALUES ('3', '2', '8');
-INSERT INTO `user_rule` VALUES ('3', '2', '9');
-INSERT INTO `user_rule` VALUES ('3', '2', '10');
-INSERT INTO `user_rule` VALUES ('3', '2', '18');
-INSERT INTO `user_rule` VALUES ('4', '3', '3');
-INSERT INTO `user_rule` VALUES ('4', '3', '8');
-INSERT INTO `user_rule` VALUES ('4', '3', '9');
-INSERT INTO `user_rule` VALUES ('4', '3', '10');
-INSERT INTO `user_rule` VALUES ('4', '3', '18');
