@@ -84,7 +84,8 @@ class User extends Controller
     {
         if ($this->request->isAjax()) {
             try {
-                $this->save(new UserModel, ['id' => $id], 'status', 'get', '', ['status']);
+                $user = new UserModel;
+                $this->save($user, ['id' => $id], 'status', [], 'get', 'data/a', ['status']);
             } catch (Exception $e) {
                 $this->error($e->getMessage());
             }
